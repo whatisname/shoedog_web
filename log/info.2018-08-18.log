@@ -1,0 +1,209 @@
+2018-08-18 03:07:27,733 - [INFO] - Starting ShoedogApplication on DESKTOP-3IDJ6KU with PID 18340 (D:\Workspace\IJIDEA\shoedog\target\classes started by PC in D:\Workspace\IJIDEA\shoedog)
+2018-08-18 03:07:27,738 - [INFO] - No active profile set, falling back to default profiles: default
+2018-08-18 03:07:27,769 - [INFO] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e08711f: startup date [Sat Aug 18 03:07:27 EDT 2018]; root of context hierarchy
+2018-08-18 03:07:28,394 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 03:07:28,429 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 03:07:28,943 - [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fce63bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-18 03:07:29,443 - [INFO] - Tomcat initialized with port(s): 8080 (http)
+2018-08-18 03:07:29,483 - [INFO] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-18 03:07:29,492 - [INFO] - Starting service [Tomcat]
+2018-08-18 03:07:29,492 - [INFO] - Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-18 03:07:29,498 - [INFO] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;D:\Software\Gwak\GnuWin32\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Software\apache-maven-3.5.3-bin\bin;D:\Software\Git\cmd;D:\Software\Redis\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;;.]
+2018-08-18 03:07:29,617 - [INFO] - Initializing Spring embedded WebApplicationContext
+2018-08-18 03:07:29,617 - [INFO] - Root WebApplicationContext: initialization completed in 1848 ms
+2018-08-18 03:07:29,680 - [INFO] - Servlet dispatcherServlet mapped to [/]
+2018-08-18 03:07:29,685 - [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-18 03:07:29,686 - [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-18 03:07:29,686 - [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-18 03:07:29,686 - [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-18 03:07:30,185 - [INFO] - HikariPool-1 - Starting...
+2018-08-18 03:07:30,522 - [INFO] - HikariPool-1 - Start completed.
+2018-08-18 03:07:30,553 - [INFO] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-18 03:07:30,562 - [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-18 03:07:30,615 - [INFO] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-18 03:07:30,616 - [INFO] - HHH000206: hibernate.properties not found
+2018-08-18 03:07:30,682 - [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-18 03:07:30,781 - [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-18 03:07:30,938 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 03:07:31,001 - [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 03:07:31,199 - [INFO] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e08711f: startup date [Sat Aug 18 03:07:27 EDT 2018]; root of context hierarchy
+2018-08-18 03:07:31,221 - [INFO] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-18 03:07:31,250 - [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-18 03:07:31,251 - [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-18 03:07:31,271 - [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 03:07:31,272 - [INFO] - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 03:07:31,993 - [INFO] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e08711f: startup date [Sat Aug 18 03:07:27 EDT 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-08-18 03:07:31,994 - [INFO] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-18 03:07:32,009 - [INFO] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-08-18 03:07:32,095 - [INFO] - Registering beans for JMX exposure on startup
+2018-08-18 03:07:32,097 - [INFO] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-18 03:07:32,102 - [INFO] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-18 03:07:32,128 - [INFO] - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-18 03:07:32,142 - [INFO] - Using a shared selector for servlet write/read
+2018-08-18 03:07:32,163 - [INFO] - Tomcat started on port(s): 8080 (http) with context path '/sd'
+2018-08-18 03:07:32,166 - [INFO] - Started ShoedogApplication in 5.427 seconds (JVM running for 8.028)
+2018-08-18 03:58:03,718 - [INFO] - Starting SneakerDaoTest on DESKTOP-3IDJ6KU with PID 5904 (started by PC in D:\Workspace\IJIDEA\shoedog)
+2018-08-18 03:58:03,718 - [INFO] - No active profile set, falling back to default profiles: default
+2018-08-18 03:58:03,916 - [INFO] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 03:58:03 EDT 2018]; root of context hierarchy
+2018-08-18 03:58:04,911 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 03:58:05,206 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 03:58:05,268 - [INFO] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xxy.shoedog.dao.SneakerDao.
+2018-08-18 03:58:05,902 - [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4dea40e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-18 03:58:06,342 - [INFO] - HikariPool-1 - Starting...
+2018-08-18 03:58:07,133 - [INFO] - HikariPool-1 - Start completed.
+2018-08-18 03:58:07,315 - [INFO] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-18 03:58:07,727 - [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-18 03:58:08,542 - [INFO] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-18 03:58:08,555 - [INFO] - HHH000206: hibernate.properties not found
+2018-08-18 03:58:08,795 - [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-18 03:58:09,174 - [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-18 03:58:11,513 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 03:58:11,985 - [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 03:58:13,918 - [INFO] - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 03:58:03 EDT 2018]; root of context hierarchy
+2018-08-18 03:58:13,997 - [INFO] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-18 03:58:14,070 - [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-18 03:58:14,071 - [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-18 03:58:14,104 - [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 03:58:14,104 - [INFO] - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 03:58:15,931 - [INFO] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 03:58:03 EDT 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-08-18 03:58:15,934 - [INFO] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-18 03:58:15,959 - [INFO] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-08-18 03:58:16,152 - [INFO] - Started SneakerDaoTest in 13.212 seconds (JVM running for 15.171)
+2018-08-18 03:58:16,542 - [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-18 03:58:17,306 - [INFO] - [Sneaker(sId=1, sName=1, sBrand=1, sVersion=1, sSeries=1, sOtherName=1, sComment=1, sLowHigh=1, sCreateTime=2018-08-18 02:07:32.0, sUpdateTime=2018-08-18 02:10:11.0, sReleaseDate=null, sPrise=140)]
+2018-08-18 03:58:17,337 - [INFO] - Closing org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 03:58:03 EDT 2018]; root of context hierarchy
+2018-08-18 03:58:17,467 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 03:58:17,474 - [INFO] - HikariPool-1 - Shutdown initiated...
+2018-08-18 03:58:17,486 - [INFO] - HikariPool-1 - Shutdown completed.
+2018-08-18 04:02:46,492 - [INFO] - Starting SneakerDaoTest on DESKTOP-3IDJ6KU with PID 20388 (started by PC in D:\Workspace\IJIDEA\shoedog)
+2018-08-18 04:02:46,493 - [INFO] - No active profile set, falling back to default profiles: default
+2018-08-18 04:02:46,531 - [INFO] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1cd629b3: startup date [Sat Aug 18 04:02:46 EDT 2018]; root of context hierarchy
+2018-08-18 04:02:47,521 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:02:47,582 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:02:47,600 - [INFO] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xxy.shoedog.dao.SneakerDao.
+2018-08-18 04:02:48,021 - [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d506341e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-18 04:02:48,209 - [INFO] - HikariPool-1 - Starting...
+2018-08-18 04:02:48,615 - [INFO] - HikariPool-1 - Start completed.
+2018-08-18 04:02:48,742 - [INFO] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:02:48,810 - [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-18 04:02:48,991 - [INFO] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-18 04:02:48,993 - [INFO] - HHH000206: hibernate.properties not found
+2018-08-18 04:02:49,036 - [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-18 04:02:49,161 - [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-18 04:02:49,945 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:02:50,593 - [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:02:51,411 - [INFO] - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1cd629b3: startup date [Sat Aug 18 04:02:46 EDT 2018]; root of context hierarchy
+2018-08-18 04:02:51,458 - [INFO] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-18 04:02:51,498 - [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-18 04:02:51,500 - [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-18 04:02:51,554 - [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:02:51,555 - [INFO] - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:02:52,650 - [INFO] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1cd629b3: startup date [Sat Aug 18 04:02:46 EDT 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-08-18 04:02:52,652 - [INFO] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-18 04:02:52,674 - [INFO] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-08-18 04:02:52,808 - [INFO] - Started SneakerDaoTest in 7.007 seconds (JVM running for 8.306)
+2018-08-18 04:02:52,946 - [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-18 04:02:53,238 - [INFO] - Sneaker(sId=1, sName=1, sBrand=1, sVersion=1, sSeries=1, sOtherName=1, sComment=1, sLowHigh=1, sCreateTime=2018-08-18 02:07:32.0, sUpdateTime=2018-08-18 02:10:11.0, sReleaseDate=null, sPrise=140)
+2018-08-18 04:02:53,244 - [INFO] - Closing org.springframework.web.context.support.GenericWebApplicationContext@1cd629b3: startup date [Sat Aug 18 04:02:46 EDT 2018]; root of context hierarchy
+2018-08-18 04:02:53,296 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:02:53,313 - [INFO] - HikariPool-1 - Shutdown initiated...
+2018-08-18 04:02:53,361 - [INFO] - HikariPool-1 - Shutdown completed.
+2018-08-18 04:05:56,290 - [INFO] - Starting SneakerDaoTest on DESKTOP-3IDJ6KU with PID 14708 (started by PC in D:\Workspace\IJIDEA\shoedog)
+2018-08-18 04:05:56,291 - [INFO] - No active profile set, falling back to default profiles: default
+2018-08-18 04:05:56,326 - [INFO] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 04:05:56 EDT 2018]; root of context hierarchy
+2018-08-18 04:05:57,220 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:05:57,318 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:05:57,361 - [INFO] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xxy.shoedog.dao.SneakerDao.
+2018-08-18 04:05:57,936 - [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b19ded03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-18 04:05:58,126 - [INFO] - HikariPool-1 - Starting...
+2018-08-18 04:05:58,374 - [INFO] - HikariPool-1 - Start completed.
+2018-08-18 04:05:58,427 - [INFO] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:05:58,442 - [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-18 04:05:58,515 - [INFO] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-18 04:05:58,516 - [INFO] - HHH000206: hibernate.properties not found
+2018-08-18 04:05:58,559 - [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-18 04:05:58,690 - [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-18 04:05:59,938 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:06:00,332 - [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:06:01,483 - [INFO] - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 04:05:56 EDT 2018]; root of context hierarchy
+2018-08-18 04:06:01,535 - [INFO] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-18 04:06:01,588 - [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-18 04:06:01,589 - [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-18 04:06:01,626 - [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:06:01,626 - [INFO] - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:06:03,008 - [INFO] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 04:05:56 EDT 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-08-18 04:06:03,009 - [INFO] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-18 04:06:03,034 - [INFO] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-08-18 04:06:03,186 - [INFO] - Started SneakerDaoTest in 7.759 seconds (JVM running for 8.988)
+2018-08-18 04:06:03,330 - [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-18 04:06:03,896 - [INFO] - Sneaker(sId=1, sName=1, sBrand=1, sVersion=1, sSeries=1, sOtherName=1, sComment=1, sLowHigh=1, sCreateTime=2018-08-18 02:07:32.0, sUpdateTime=2018-08-18 02:10:11.0, sReleaseDate=null, sPrise=140)
+2018-08-18 04:06:03,901 - [INFO] - Closing org.springframework.web.context.support.GenericWebApplicationContext@39d76cb5: startup date [Sat Aug 18 04:05:56 EDT 2018]; root of context hierarchy
+2018-08-18 04:06:03,922 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:06:03,923 - [INFO] - HikariPool-1 - Shutdown initiated...
+2018-08-18 04:06:03,929 - [INFO] - HikariPool-1 - Shutdown completed.
+2018-08-18 04:43:47,659 - [INFO] - Starting SneakerServiceTest on DESKTOP-3IDJ6KU with PID 11340 (started by PC in D:\Workspace\IJIDEA\shoedog)
+2018-08-18 04:43:47,661 - [INFO] - No active profile set, falling back to default profiles: default
+2018-08-18 04:43:47,764 - [INFO] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3224a577: startup date [Sat Aug 18 04:43:47 EDT 2018]; root of context hierarchy
+2018-08-18 04:43:48,762 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:43:48,851 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:43:48,876 - [INFO] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xxy.shoedog.dao.SneakerDao.
+2018-08-18 04:43:49,507 - [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be99575] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-18 04:43:49,724 - [INFO] - HikariPool-1 - Starting...
+2018-08-18 04:43:50,116 - [INFO] - HikariPool-1 - Start completed.
+2018-08-18 04:43:50,259 - [INFO] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:43:50,373 - [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-18 04:43:50,891 - [INFO] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-18 04:43:50,893 - [INFO] - HHH000206: hibernate.properties not found
+2018-08-18 04:43:50,971 - [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-18 04:43:51,190 - [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-18 04:43:52,567 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:43:53,130 - [INFO] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sneakerServiceImp': Unsatisfied dependency expressed through field 'sneakerDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sneakerDao': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.xxy.shoedog.dao.SneakerDao.findSneakersBySNameContains(java.lang.String)
+2018-08-18 04:43:53,130 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:43:53,130 - [INFO] - HikariPool-1 - Shutdown initiated...
+2018-08-18 04:43:53,137 - [INFO] - HikariPool-1 - Shutdown completed.
+2018-08-18 04:43:53,144 - [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-08-18 04:51:06,796 - [INFO] - Starting SneakerServiceTest on DESKTOP-3IDJ6KU with PID 21788 (started by PC in D:\Workspace\IJIDEA\shoedog)
+2018-08-18 04:51:06,798 - [INFO] - No active profile set, falling back to default profiles: default
+2018-08-18 04:51:06,849 - [INFO] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2e32ccc5: startup date [Sat Aug 18 04:51:06 EDT 2018]; root of context hierarchy
+2018-08-18 04:51:08,989 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:51:09,248 - [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-18 04:51:09,279 - [INFO] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xxy.shoedog.dao.SneakerDao.
+2018-08-18 04:51:10,002 - [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b19ded03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-18 04:51:10,883 - [INFO] - HikariPool-1 - Starting...
+2018-08-18 04:51:11,459 - [INFO] - HikariPool-1 - Start completed.
+2018-08-18 04:51:11,526 - [INFO] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:51:11,551 - [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-18 04:51:11,974 - [INFO] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-18 04:51:11,979 - [INFO] - HHH000206: hibernate.properties not found
+2018-08-18 04:51:12,262 - [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-18 04:51:12,476 - [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-18 04:51:14,085 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:51:15,778 - [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:51:16,419 - [INFO] - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2e32ccc5: startup date [Sat Aug 18 04:51:06 EDT 2018]; root of context hierarchy
+2018-08-18 04:51:16,613 - [INFO] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-18 04:51:16,721 - [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-18 04:51:16,726 - [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-18 04:51:16,778 - [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:51:16,778 - [INFO] - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-18 04:51:20,368 - [INFO] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@2e32ccc5: startup date [Sat Aug 18 04:51:06 EDT 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-08-18 04:51:20,370 - [INFO] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-18 04:51:20,397 - [INFO] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-08-18 04:51:20,724 - [INFO] - Started SneakerServiceTest in 15.786 seconds (JVM running for 18.665)
+2018-08-18 04:51:26,787 - [INFO] - Closing org.springframework.web.context.support.GenericWebApplicationContext@2e32ccc5: startup date [Sat Aug 18 04:51:06 EDT 2018]; root of context hierarchy
+2018-08-18 04:51:26,807 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-18 04:51:26,809 - [INFO] - HikariPool-1 - Shutdown initiated...
+2018-08-18 04:51:26,946 - [INFO] - HikariPool-1 - Shutdown completed.
